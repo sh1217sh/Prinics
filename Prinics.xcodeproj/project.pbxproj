@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3E40767E181367EE627673 /* Pods_Prinics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163BAD10B40FC0852200201B /* Pods_Prinics.framework */; };
 		CB6ECEA127F9283900890BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEA027F9283900890BB6 /* AppDelegate.swift */; };
-		CB6ECEA327F9283900890BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEA227F9283900890BB6 /* SceneDelegate.swift */; };
-		CB6ECEA527F9283900890BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEA427F9283900890BB6 /* ViewController.swift */; };
+		CB6ECEA527F9283900890BB6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEA427F9283900890BB6 /* MainViewController.swift */; };
 		CB6ECEA827F9283900890BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECEA627F9283900890BB6 /* Main.storyboard */; };
 		CB6ECEAA27F9283B00890BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECEA927F9283B00890BB6 /* Assets.xcassets */; };
 		CB6ECEAD27F9283B00890BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6ECEAB27F9283B00890BB6 /* LaunchScreen.storyboard */; };
+		CB6ECEB527F9311400890BB6 /* PrinterStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEB427F9311400890BB6 /* PrinterStatusViewController.swift */; };
+		CB9536692826035300B8F39F /* PrinterConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9536682826035300B8F39F /* PrinterConnectionManager.swift */; };
+		CB95366C282605CF00B8F39F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB95366B282605CF00B8F39F /* NetworkExtension.framework */; };
+		CB95366E282667D900B8F39F /* PrinterCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */; };
+		CB9536702827294E00B8F39F /* PrintPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */; };
+		CB953674282BC58C00B8F39F /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953673282BC58C00B8F39F /* PrintViewController.swift */; };
+		CB953676282BC70300B8F39F /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953675282BC70300B8F39F /* PrintManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163BAD10B40FC0852200201B /* Pods_Prinics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prinics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33518F6FDE2D771A0292F0D3 /* Pods-Prinics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prinics.release.xcconfig"; path = "Target Support Files/Pods-Prinics/Pods-Prinics.release.xcconfig"; sourceTree = "<group>"; };
 		CB6ECE9D27F9283800890BB6 /* Prinics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prinics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6ECEA027F9283900890BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB6ECEA227F9283900890BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB6ECEA427F9283900890BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB6ECEA427F9283900890BB6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CB6ECEA727F9283900890BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6ECEA927F9283B00890BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6ECEAC27F9283B00890BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6ECEAE27F9283B00890BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6ECEB427F9311400890BB6 /* PrinterStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterStatusViewController.swift; sourceTree = "<group>"; };
+		CB9536672825BE1F00B8F39F /* Prinics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prinics.entitlements; sourceTree = "<group>"; };
+		CB9536682826035300B8F39F /* PrinterConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterConnectionManager.swift; sourceTree = "<group>"; };
+		CB95366B282605CF00B8F39F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrinterCommunicationManager.swift; path = "/Users/sungho/Library/CloudStorage/OneDrive-중앙대학교/2022_1학기/CSC 680 Application Development for Mobile Devices/Final Project/Prinics/Prinics/PrinterCommunicationManager.swift"; sourceTree = "<absolute>"; };
+		CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintPreviewViewController.swift; sourceTree = "<group>"; };
+		CB953673282BC58C00B8F39F /* PrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
+		CB953675282BC70300B8F39F /* PrintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrintManager.swift; path = "/Users/sungho/Library/CloudStorage/OneDrive-중앙대학교/2022_1학기/CSC 680 Application Development for Mobile Devices/Final Project/Prinics/Prinics/PrintManager.swift"; sourceTree = "<absolute>"; };
+		F958FCB169FE5E6E4912CCD2 /* Pods-Prinics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prinics.debug.xcconfig"; path = "Target Support Files/Pods-Prinics/Pods-Prinics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB95366C282605CF00B8F39F /* NetworkExtension.framework in Frameworks */,
+				3F3E40767E181367EE627673 /* Pods_Prinics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4012E2ECB822202AF56599B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F958FCB169FE5E6E4912CCD2 /* Pods-Prinics.debug.xcconfig */,
+				33518F6FDE2D771A0292F0D3 /* Pods-Prinics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CB6ECE9427F9283800890BB6 = {
 			isa = PBXGroup;
 			children = (
 				CB6ECE9F27F9283800890BB6 /* Prinics */,
 				CB6ECE9E27F9283800890BB6 /* Products */,
+				CB95366A282605CF00B8F39F /* Frameworks */,
+				4012E2ECB822202AF56599B0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,30 @@
 		CB6ECE9F27F9283800890BB6 /* Prinics */ = {
 			isa = PBXGroup;
 			children = (
+				CB9536672825BE1F00B8F39F /* Prinics.entitlements */,
 				CB6ECEA027F9283900890BB6 /* AppDelegate.swift */,
-				CB6ECEA227F9283900890BB6 /* SceneDelegate.swift */,
-				CB6ECEA427F9283900890BB6 /* ViewController.swift */,
+				CB6ECEA427F9283900890BB6 /* MainViewController.swift */,
+				CB6ECEB427F9311400890BB6 /* PrinterStatusViewController.swift */,
+				CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */,
+				CB953673282BC58C00B8F39F /* PrintViewController.swift */,
+				CB9536682826035300B8F39F /* PrinterConnectionManager.swift */,
+				CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */,
+				CB953675282BC70300B8F39F /* PrintManager.swift */,
 				CB6ECEA627F9283900890BB6 /* Main.storyboard */,
 				CB6ECEA927F9283B00890BB6 /* Assets.xcassets */,
 				CB6ECEAB27F9283B00890BB6 /* LaunchScreen.storyboard */,
 				CB6ECEAE27F9283B00890BB6 /* Info.plist */,
 			);
 			path = Prinics;
+			sourceTree = "<group>";
+		};
+		CB95366A282605CF00B8F39F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB95366B282605CF00B8F39F /* NetworkExtension.framework */,
+				163BAD10B40FC0852200201B /* Pods_Prinics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6ECEB127F9283B00890BB6 /* Build configuration list for PBXNativeTarget "Prinics" */;
 			buildPhases = (
+				B7F27AA1EC1ADB6E06D77A94 /* [CP] Check Pods Manifest.lock */,
 				CB6ECE9927F9283800890BB6 /* Sources */,
 				CB6ECE9A27F9283800890BB6 /* Frameworks */,
 				CB6ECE9B27F9283800890BB6 /* Resources */,
+				A2E6EAF96787FF04491D3577 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +180,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2E6EAF96787FF04491D3577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prinics/Pods-Prinics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prinics/Pods-Prinics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prinics/Pods-Prinics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F27AA1EC1ADB6E06D77A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prinics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB6ECE9927F9283800890BB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6ECEA527F9283900890BB6 /* ViewController.swift in Sources */,
+				CB6ECEA527F9283900890BB6 /* MainViewController.swift in Sources */,
 				CB6ECEA127F9283900890BB6 /* AppDelegate.swift in Sources */,
-				CB6ECEA327F9283900890BB6 /* SceneDelegate.swift in Sources */,
+				CB953674282BC58C00B8F39F /* PrintViewController.swift in Sources */,
+				CB9536702827294E00B8F39F /* PrintPreviewViewController.swift in Sources */,
+				CB95366E282667D900B8F39F /* PrinterCommunicationManager.swift in Sources */,
+				CB953676282BC70300B8F39F /* PrintManager.swift in Sources */,
+				CB9536692826035300B8F39F /* PrinterConnectionManager.swift in Sources */,
+				CB6ECEB527F9311400890BB6 /* PrinterStatusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +376,11 @@
 		};
 		CB6ECEB227F9283B00890BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F958FCB169FE5E6E4912CCD2 /* Pods-Prinics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prinics/Prinics.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8R7ZBDYA84;
@@ -293,8 +389,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,15 +401,17 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CB6ECEB327F9283B00890BB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33518F6FDE2D771A0292F0D3 /* Pods-Prinics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prinics/Prinics.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8R7ZBDYA84;
@@ -321,8 +420,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
