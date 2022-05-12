@@ -1,5 +1,8 @@
 # Prinics
 
+## Demo Video
+[YouTube](https://youtu.be/1sntL3vGgvA)
+
 ## Motivation
 
 I own a Kodak Photo Printer Mini which is a portable photo printer that connects to smartphones and allow users to print their photo on the fly. While the companion app of the printer does what it supposed to do, the process of getting a photo printed out is not user-friendly. I think there is a lot of room to improve the user experience of the companion app and I can create a better version of it.
@@ -32,11 +35,11 @@ It would be a great addition if the new app implements a share sheet extension s
 
 ### Must-have features
 
- - [ ] Saving a printer's WIFI information
- - [ ] Connecting to the printer whenever needed
- - [ ] Selecting a photo from the photo library
- - [ ] Cut photo into appropriate aspect ratio for printing
- - [ ] Printing a photo
+ - [ ] ~~Saving a printer's WIFI information~~ Apps can request iOS to connect to an WiFi with SSID prefix so no need to implement this feature.
+ - [x] Connecting to the printer whenever needed
+ - [x] Selecting a photo from the photo library
+ - [x] Cut photo into appropriate aspect ratio for printing
+ - [x] Printing a photo
 
  ### Good to have features
 
