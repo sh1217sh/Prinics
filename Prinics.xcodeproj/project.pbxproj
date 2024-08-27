@@ -16,10 +16,10 @@
 		CB6ECEB527F9311400890BB6 /* PrinterStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6ECEB427F9311400890BB6 /* PrinterStatusViewController.swift */; };
 		CB9536692826035300B8F39F /* PrinterConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9536682826035300B8F39F /* PrinterConnectionManager.swift */; };
 		CB95366C282605CF00B8F39F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB95366B282605CF00B8F39F /* NetworkExtension.framework */; };
-		CB95366E282667D900B8F39F /* PrinterCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */; };
 		CB9536702827294E00B8F39F /* PrintPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */; };
 		CB953674282BC58C00B8F39F /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953673282BC58C00B8F39F /* PrintViewController.swift */; };
-		CB953676282BC70300B8F39F /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB953675282BC70300B8F39F /* PrintManager.swift */; };
+		CBEE3F742C7E090B001AA858 /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE3F722C7E090B001AA858 /* PrintManager.swift */; };
+		CBEE3F752C7E090B001AA858 /* PrinterCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE3F732C7E090B001AA858 /* PrinterCommunicationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +36,10 @@
 		CB9536672825BE1F00B8F39F /* Prinics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prinics.entitlements; sourceTree = "<group>"; };
 		CB9536682826035300B8F39F /* PrinterConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinterConnectionManager.swift; sourceTree = "<group>"; };
 		CB95366B282605CF00B8F39F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
-		CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrinterCommunicationManager.swift; path = "/Users/sungho/Library/CloudStorage/OneDrive-중앙대학교/2022_1학기/CSC 680 Application Development for Mobile Devices/Final Project/Prinics/Prinics/PrinterCommunicationManager.swift"; sourceTree = "<absolute>"; };
 		CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintPreviewViewController.swift; sourceTree = "<group>"; };
 		CB953673282BC58C00B8F39F /* PrintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
-		CB953675282BC70300B8F39F /* PrintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrintManager.swift; path = "/Users/sungho/Library/CloudStorage/OneDrive-중앙대학교/2022_1학기/CSC 680 Application Development for Mobile Devices/Final Project/Prinics/Prinics/PrintManager.swift"; sourceTree = "<absolute>"; };
+		CBEE3F722C7E090B001AA858 /* PrintManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
+		CBEE3F732C7E090B001AA858 /* PrinterCommunicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterCommunicationManager.swift; sourceTree = "<group>"; };
 		F958FCB169FE5E6E4912CCD2 /* Pods-Prinics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prinics.debug.xcconfig"; path = "Target Support Files/Pods-Prinics/Pods-Prinics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,8 @@
 				CB95366F2827294E00B8F39F /* PrintPreviewViewController.swift */,
 				CB953673282BC58C00B8F39F /* PrintViewController.swift */,
 				CB9536682826035300B8F39F /* PrinterConnectionManager.swift */,
-				CB95366D282667D900B8F39F /* PrinterCommunicationManager.swift */,
-				CB953675282BC70300B8F39F /* PrintManager.swift */,
+				CBEE3F732C7E090B001AA858 /* PrinterCommunicationManager.swift */,
+				CBEE3F722C7E090B001AA858 /* PrintManager.swift */,
 				CB6ECEA627F9283900890BB6 /* Main.storyboard */,
 				CB6ECEA927F9283B00890BB6 /* Assets.xcassets */,
 				CB6ECEAB27F9283B00890BB6 /* LaunchScreen.storyboard */,
@@ -231,10 +231,10 @@
 				CB6ECEA127F9283900890BB6 /* AppDelegate.swift in Sources */,
 				CB953674282BC58C00B8F39F /* PrintViewController.swift in Sources */,
 				CB9536702827294E00B8F39F /* PrintPreviewViewController.swift in Sources */,
-				CB95366E282667D900B8F39F /* PrinterCommunicationManager.swift in Sources */,
-				CB953676282BC70300B8F39F /* PrintManager.swift in Sources */,
 				CB9536692826035300B8F39F /* PrinterConnectionManager.swift in Sources */,
+				CBEE3F752C7E090B001AA858 /* PrinterCommunicationManager.swift in Sources */,
 				CB6ECEB527F9311400890BB6 /* PrinterStatusViewController.swift in Sources */,
+				CBEE3F742C7E090B001AA858 /* PrintManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
